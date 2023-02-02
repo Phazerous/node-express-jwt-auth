@@ -1,0 +1,55 @@
+@import 'base';
+
+form {
+  h2 {
+    font-size: 50px;
+    font-weight: 500;
+  }
+
+  .form-entries {
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+
+    fieldset {
+      input {
+        font-size: 20px;
+        border-radius: 10px;
+        padding: 15px 0 15px 20px;
+        border: 1px solid black;
+        width: 100%;
+      }
+    
+      border: none;
+    }
+
+    button {
+      font-size: 25px;
+      font-weight: bold;
+      color: white;
+      padding: 15px 135px;
+      background-color: rgba($color: #4674EA, $alpha: 0.71);
+      border-radius: 10px;
+    }
+  }
+
+  .optional {
+    font-weight: 500;
+    font-size: 20px;
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 20px;
+
+    a {
+      text-decoration: underline;
+      color:rgba($color: #4674EA, $alpha: 0.71);
+    }
+  }
+
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 45px;
+}

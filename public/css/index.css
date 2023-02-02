@@ -1,0 +1,58 @@
+@import url("https://fonts.googleapis.com/css2?family=Merriweather+Sans&family=Montserrat:wght@500;700&display=swap");
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  font-family: "Montserrat", sans-serif;
+  border: none;
+}
+
+form {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 45px;
+}
+form h2 {
+  font-size: 50px;
+  font-weight: 500;
+}
+form .form-entries {
+  display: flex;
+  flex-direction: column;
+  gap: 30px;
+}
+form .form-entries fieldset {
+  border: none;
+}
+form .form-entries fieldset input {
+  font-size: 20px;
+  border-radius: 10px;
+  padding: 15px 0 15px 20px;
+  border: 1px solid black;
+  width: 100%;
+}
+form .form-entries button {
+  font-size: 25px;
+  font-weight: bold;
+  color: white;
+  padding: 15px 135px;
+  background-color: rgba(70, 116, 234, 0.71);
+  border-radius: 10px;
+}
+form .optional {
+  font-weight: 500;
+  font-size: 20px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 20px;
+}
+form .optional a {
+  text-decoration: underline;
+  color: rgba(70, 116, 234, 0.71);
+}
+
+.wrapper {
+  padding: 10%;
+}
